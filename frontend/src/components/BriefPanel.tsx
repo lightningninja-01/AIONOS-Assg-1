@@ -54,7 +54,7 @@ export function BriefPanel({
     return (
       <div className="bg-red-900/30 border border-red-700 rounded-xl p-4">
         <p className="text-red-400 text-sm">Failed to load brief: {error}</p>
-        <p className="text-red-500 text-xs mt-1">Ensure the backend is running at localhost:8001</p>
+        <p className="text-red-500 text-xs mt-1">Ensure the backend API is running and reachable.</p>
       </div>
     )
   }

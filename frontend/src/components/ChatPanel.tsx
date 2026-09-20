@@ -52,7 +52,7 @@ export function ChatPanel({ asOfDate }: { asOfDate: string }) {
       const errMsg: ChatMessage = {
         id: (Date.now() + 1).toString(),
         type: 'error',
-        text: 'Failed to contact agent. Ensure the backend is running at localhost:8001.',
+        text: 'Failed to contact agent. Ensure the backend API is running and reachable.',
       }
       setMessages((prev) => [...prev, errMsg])
     } finally {
