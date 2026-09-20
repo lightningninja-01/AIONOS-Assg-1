@@ -1,0 +1,284 @@
+{
+  "threads": [
+    {
+      "thread_id": "thread_vendor_list",
+      "subject": "Vendor List",
+      "messages": [
+        {
+          "message_id": "email_vl_1",
+          "date": "2026-09-21",
+          "time": "09:50",
+          "from": "raghav.sethi@veridian-corp.example",
+          "from_name": "Raghav Sethi",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Following up from the sync — can you send the updated vendor list today?"
+        },
+        {
+          "message_id": "email_vl_2",
+          "date": "2026-09-21",
+          "time": "17:40",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "raghav.sethi@veridian-corp.example",
+          "to_name": "Raghav Sethi",
+          "body": "Running behind, will send first thing tomorrow morning instead."
+        },
+        {
+          "message_id": "email_vl_3",
+          "date": "2026-09-22",
+          "time": "09:15",
+          "from": "raghav.sethi@veridian-corp.example",
+          "from_name": "Raghav Sethi",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "No worries, whenever you get a chance today works."
+        },
+        {
+          "message_id": "email_vl_4",
+          "date": "2026-09-22",
+          "time": "18:30",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "raghav.sethi@veridian-corp.example",
+          "to_name": "Raghav Sethi",
+          "body": "Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure."
+        },
+        {
+          "message_id": "email_vl_5",
+          "date": "2026-09-23",
+          "time": "08:45",
+          "from": "raghav.sethi@veridian-corp.example",
+          "from_name": "Raghav Sethi",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Just checking — still good for this morning?"
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_q3_campaign_deck",
+      "subject": "Q3 Campaign Deck",
+      "messages": [
+        {
+          "message_id": "email_deck_1",
+          "date": "2026-09-21",
+          "time": "11:00",
+          "from": "neha.kapoor@veridian-corp.example",
+          "from_name": "Neha Kapoor",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Deck's coming together, still targeting Wednesday for your review."
+        },
+        {
+          "message_id": "email_deck_2",
+          "date": "2026-09-22",
+          "time": "16:15",
+          "from": "neha.kapoor@veridian-corp.example",
+          "from_name": "Neha Kapoor",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides."
+        },
+        {
+          "message_id": "email_deck_3",
+          "date": "2026-09-23",
+          "time": "10:00",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "neha.kapoor@veridian-corp.example",
+          "to_name": "Neha Kapoor",
+          "body": "Understood, Thursday morning works. What time exactly?"
+        },
+        {
+          "message_id": "email_deck_4",
+          "date": "2026-09-23",
+          "time": "10:20",
+          "from": "neha.kapoor@veridian-corp.example",
+          "from_name": "Neha Kapoor",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Let's say 9:30 AM Thursday, before your board prep block."
+        },
+        {
+          "message_id": "email_deck_5",
+          "date": "2026-09-24",
+          "time": "08:00",
+          "from": "neha.kapoor@veridian-corp.example",
+          "from_name": "Neha Kapoor",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Deck is ready, attaching the draft ahead of our 9:30 review."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_meridian_call",
+      "subject": "Call Reschedule",
+      "messages": [
+        {
+          "message_id": "email_meridian_1",
+          "date": "2026-09-21",
+          "time": "13:00",
+          "from": "priya.nair@meridianlogistics.example",
+          "from_name": "Priya Nair",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Our scheduled call this week got bumped from our side — can you propose a new time? We're flexible Tuesday–Thursday afternoons."
+        },
+        {
+          "message_id": "email_meridian_2",
+          "date": "2026-09-22",
+          "time": "15:00",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "priya.nair@meridianlogistics.example",
+          "to_name": "Priya Nair",
+          "body": "Apologies for the delay — how about Wednesday 3:00 PM?"
+        },
+        {
+          "message_id": "email_meridian_3",
+          "date": "2026-09-22",
+          "time": "17:45",
+          "from": "priya.nair@meridianlogistics.example",
+          "from_name": "Priya Nair",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Wednesday 3 PM works on our end, confirmed."
+        },
+        {
+          "message_id": "email_meridian_4",
+          "date": "2026-09-23",
+          "time": "13:30",
+          "from": "priya.nair@meridianlogistics.example",
+          "from_name": "Priya Nair",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Quick check — still on for 3 PM today?"
+        },
+        {
+          "message_id": "email_meridian_5",
+          "date": "2026-09-23",
+          "time": "14:00",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "priya.nair@meridianlogistics.example",
+          "to_name": "Priya Nair",
+          "body": "Yes, confirmed, see you at 3."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_expense_report",
+      "subject": "Expense Variance Report",
+      "messages": [
+        {
+          "message_id": "email_expense_1",
+          "date": "2026-09-21",
+          "time": "14:30",
+          "from": "divya.rao@veridian-corp.example",
+          "from_name": "Divya Rao",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed."
+        },
+        {
+          "message_id": "email_expense_2",
+          "date": "2026-09-22",
+          "time": "09:00",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "divya.rao@veridian-corp.example",
+          "to_name": "Divya Rao",
+          "body": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday."
+        },
+        {
+          "message_id": "email_expense_3",
+          "date": "2026-09-22",
+          "time": "09:40",
+          "from": "divya.rao@veridian-corp.example",
+          "from_name": "Divya Rao",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Wednesday evening is tight but doable, I'll prioritize it."
+        },
+        {
+          "message_id": "email_expense_4",
+          "date": "2026-09-23",
+          "time": "18:00",
+          "from": "divya.rao@veridian-corp.example",
+          "from_name": "Divya Rao",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Report attached, sent as promised."
+        },
+        {
+          "message_id": "email_expense_5",
+          "date": "2026-09-23",
+          "time": "18:10",
+          "from": "arjun.malhotra@veridian-corp.example",
+          "from_name": "Arjun Malhotra",
+          "to": "divya.rao@veridian-corp.example",
+          "to_name": "Divya Rao",
+          "body": "Got it, thank you — exactly what I needed before tomorrow."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_mumbai_lease",
+      "subject": "Mumbai Office Lease Renewal",
+      "messages": [
+        {
+          "message_id": "email_mumbai_1",
+          "date": "2026-09-21",
+          "time": "10:15",
+          "from": "facilities@veridian-corp.example",
+          "from_name": "Facilities",
+          "to": "all-staff@veridian-corp.example",
+          "to_name": "All Staff",
+          "body": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September."
+        },
+        {
+          "message_id": "email_mumbai_2",
+          "date": "2026-09-22",
+          "time": "11:00",
+          "from": "raghav.sethi@veridian-corp.example",
+          "from_name": "Raghav Sethi",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Following up from the sync — has anyone confirmed who's signing off on the Mumbai renewal? Don't think it's been assigned."
+        },
+        {
+          "message_id": "email_mumbai_3",
+          "date": "2026-09-23",
+          "time": "09:30",
+          "from": "divya.rao@veridian-corp.example",
+          "from_name": "Divya Rao",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "Not on my end — I believe this typically sits with Facilities directly, not us."
+        },
+        {
+          "message_id": "email_mumbai_4",
+          "date": "2026-09-24",
+          "time": "16:00",
+          "from": "facilities@veridian-corp.example",
+          "from_name": "Facilities",
+          "to": "all-staff@veridian-corp.example",
+          "to_name": "All Staff",
+          "body": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day."
+        },
+        {
+          "message_id": "email_mumbai_5",
+          "date": "2026-09-24",
+          "time": "16:45",
+          "from": "raghav.sethi@veridian-corp.example",
+          "from_name": "Raghav Sethi",
+          "to": "arjun.malhotra@veridian-corp.example",
+          "to_name": "Arjun Malhotra",
+          "body": "This is now one day out and still unowned — can you confirm who's handling it?"
+        }
+      ]
+    }
+  ]
+}
