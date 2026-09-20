@@ -4,12 +4,8 @@ pytestmark = pytest.mark.asyncio
 
 
 @pytest.fixture
-async def store():
-    from app.engine.commitment_store import CommitmentStore
-    s = CommitmentStore()
-    await s.build()
-    return s
-
+async def store(shared_store):
+    return shared_store
 
 async def test_vendor_list_deadline_latest_is_wednesday(store):
     """C1's latest deadline must be Wednesday 23 Sep (most recent update)."""

@@ -6,13 +6,13 @@ pytestmark = pytest.mark.asyncio
 
 
 @pytest.fixture
-async def app_client():
+async def app_client(shared_store):
     from app.main import app
-    from app.engine.commitment_store import CommitmentStore
+    from httpx import ASGITransport
     
-    # We ensure the app is fully started before testing
-    async with AsyncClient(app=app, base_url="http://test") as ac:
-        # App startup runs the pipeline; we might need to wait for state
+    app.state.commitment_store = shared_store
+    
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         yield ac
 
 

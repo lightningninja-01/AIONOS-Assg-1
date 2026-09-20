@@ -71,7 +71,7 @@ EXTRACTION_TOOL = {
                                 )
                             },
                             "recipient": {
-                                "type": "string",
+                                "type": ["string", "null"],
                                 "description": "Who receives or benefits from this action. Null if not mentioned."
                             },
                             "deadline": {

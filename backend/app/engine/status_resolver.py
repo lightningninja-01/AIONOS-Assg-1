@@ -53,11 +53,17 @@ def resolve_category(
     ownership_status: str,
     as_of_date: str,
     status: CommitmentStatus,
+    title: str = "",
 ) -> str:
     from app.models import CommitmentCategory, OwnershipStatus
 
     if ownership_status in (OwnershipStatus.unknown.value, OwnershipStatus.suggested.value, "unknown", "suggested"):
         return CommitmentCategory.ownership_unclear.value
+
+    # Deterministic check for blocked/waiting actions
+    title_lower = title.lower()
+    if "from " in title_lower or "waiting" in title_lower:
+        return CommitmentCategory.waiting_on_others.value
 
     if owner == "Arjun Malhotra":
         return CommitmentCategory.my_action.value

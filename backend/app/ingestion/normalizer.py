@@ -86,7 +86,7 @@ def _extract_time(text: str) -> str:
     if "morning" in text:
         return "09:00:00"
     if "evening" in text or "end of day" in text or "eod" in text:
-        return "18:00:00"
+        return "17:00:00"
     if "afternoon" in text:
         return "14:00:00"
     if "night" in text:

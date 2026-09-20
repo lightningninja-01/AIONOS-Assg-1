@@ -5,20 +5,14 @@ Groups candidate commitments that refer to the same underlying action,
 merging them into a single Commitment with multiple Evidence records.
 
 Strategy:
-  1. Build a semantic key from (normalized_owner, normalized_recipient, topic_cluster)
-  2. Use an LLM pair-scoring call for ambiguous matches (same model, gpt-oss-20b)
+  1. Build a semantic key from (topic_cluster, recipient)
+  2. Use deterministic semantic topic clustering to group matches
   3. Merge confirmed duplicates — ONE Commitment, N Evidence records
 """
 from __future__ import annotations
 
-import json
-import uuid
 from typing import Any
 
-from groq import AsyncGroq
-
-from app.config.settings import get_settings
-from app.ingestion.normalizer import normalize_deadline
 from app.models import (
     ARJUN,
     Commitment,
@@ -59,9 +53,7 @@ def _semantic_key(raw: dict[str, Any]) -> str:
 
 class Deduplicator:
     def __init__(self) -> None:
-        settings = get_settings()
-        self._client = AsyncGroq(api_key=settings.groq_api_key, timeout=settings.groq_timeout)
-        self._model = settings.groq_model
+        pass
 
     async def deduplicate(
         self, candidates: list[tuple[dict[str, Any], Evidence]]

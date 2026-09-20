@@ -4,12 +4,8 @@ pytestmark = pytest.mark.asyncio
 
 
 @pytest.fixture
-async def store():
-    from app.engine.commitment_store import CommitmentStore
-    s = CommitmentStore()
-    await s.build()
-    return s
-
+async def store(shared_store):
+    return shared_store
 
 async def test_vendor_list_is_single_commitment(store):
     """The vendor list must NOT appear as multiple commitments."""

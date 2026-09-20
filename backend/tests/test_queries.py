@@ -6,9 +6,15 @@ pytestmark = pytest.mark.asyncio
 
 
 @pytest.fixture
-async def app_client():
+async def app_client(shared_store):
     from app.main import app
-    async with AsyncClient(app=app, base_url="http://test") as ac:
+    from app.engine.qa_graph import QAGraph
+    from httpx import ASGITransport
+    
+    app.state.commitment_store = shared_store
+    app.state.qa_graph = QAGraph(shared_store)
+    
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         yield ac
 
 

@@ -117,7 +117,7 @@ class CommitmentStore:
         status = resolve_status(latest_iso, evidence_list, as_of_date)
 
         # Resolve category
-        category_str = resolve_category(owner, ownership_status.value, as_of_date, status)
+        category_str = resolve_category(owner, ownership_status.value, as_of_date, status, title=rep_raw.get("description", ""))
         category = CommitmentCategory(category_str)
 
         # Determine recipient

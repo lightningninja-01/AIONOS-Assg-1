@@ -8,12 +8,8 @@ pytestmark = pytest.mark.asyncio
 
 
 @pytest.fixture
-async def store():
-    from app.engine.commitment_store import CommitmentStore
-    s = CommitmentStore()
-    await s.build()
-    return s
-
+async def store(shared_store):
+    return shared_store
 
 async def test_mumbai_lease_owner_is_unknown(store):
     """C5 (Mumbai lease) MUST have owner=UNKNOWN."""
