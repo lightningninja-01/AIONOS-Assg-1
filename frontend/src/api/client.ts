@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8001'
+// @ts-ignore - Bypass TS not knowing about Vite's import.meta.env
+const BASE_URL = (import.meta as any).env.VITE_API_URL || 'http://127.0.0.1:8001'
 
 export const api = axios.create({
   baseURL: BASE_URL,
