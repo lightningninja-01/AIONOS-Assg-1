@@ -61,7 +61,7 @@ export function Agent() {
           <div className="mt-2">
             <span className="text-xs text-gray-500">Simulated: </span>
             <span className="text-xs text-blue-400 font-semibold">{DAY_NAMES[selectedDate]}</span>
-            <span className="text-xs text-gray-600 ml-3">AIONOS Assignment 1 · Ujjwal Prakash Singh · 2301010234</span>
+            <span className="text-xs text-gray-600 ml-3">Ujjwal Prakash Singh · 2301010234</span>
           </div>
         </div>
       </header>
